@@ -1,0 +1,16 @@
+package com.xworkz.costructor;
+
+public class Car {
+	
+	Car(){
+		System.out.println("Hi");
+	}
+	public static void main(String[] args) {
+		System.out.println("Start");
+		
+		Car car=new Car();
+		
+		System.out.println("End");
+	}
+
+}

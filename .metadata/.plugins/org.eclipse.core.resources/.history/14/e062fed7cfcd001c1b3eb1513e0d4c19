@@ -1,0 +1,17 @@
+package com.xworkz.MethodOverloading;
+
+import MethodOverloading.MethodOverloading;
+
+public class Runner {
+
+	public static void main(String[] args) {
+			 
+		MethodOverloading methodover=new MethodOverloading();
+		
+		methodover.display();
+		methodover.display();
+		methodover.display(500, "Pitti");
+		methodover.display(200, "Gicchi");
+	}
+
+}

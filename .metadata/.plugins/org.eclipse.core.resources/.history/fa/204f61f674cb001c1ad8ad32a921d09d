@@ -1,0 +1,15 @@
+package com.xworkz.methods.AllFourTypes;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+ 
+		All all=new All();
+		all.m1();
+		all.m2(10, 10);
+		String result=all.m3("Pradeep", 23);
+		
+		String result1=all.m4("Ganesh", 23);
+	}
+
+}

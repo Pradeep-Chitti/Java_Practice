@@ -1,0 +1,16 @@
+package com.xworkz.ApartmentDTO;
+public class Runner {
+	public static void main(String[] args) {
+		
+		UpdatePriceByName();
+	
+	}
+
+	private static void UpdatePriceByName() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+			}
+
+

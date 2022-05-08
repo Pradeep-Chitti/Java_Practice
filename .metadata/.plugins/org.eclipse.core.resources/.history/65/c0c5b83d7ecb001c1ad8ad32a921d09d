@@ -1,0 +1,31 @@
+package MethodOverloading;
+
+public class MethodOverloading {
+	
+private static final int Pradeep = 0;
+//	No arguments
+	public void display() {
+		System.out.println("Hello");
+	}
+//	one arguments with int data type
+	public void display(int x) {
+		System.out.println(x);
+	 }
+//	 one argument with different data type
+	public void display(double x) {
+		 System.out.println(x);
+	 }
+//	 two arguments with different Data types
+	 public int display(int x,String y) {
+		 y=Pradeep;
+		
+		 System.out.println(x+" "+y);
+		return x;
+	 }
+//	 two arguments with different data types and Diffrent in sequence
+	public  String display(String y,int x) {
+		 System.out.println(x+" "+y);
+		 return x+y;
+	 }
+
+}

@@ -1,0 +1,19 @@
+package com.xworkz.MethodOverloading;
+
+import MethodOverloading.MethodOverloading;
+
+public class Runner {
+
+	public static void main(String[] args) {
+			 
+		MethodOverloading methodover=new MethodOverloading();
+		
+		methodover.display();
+		methodover.display(85.92);
+		int result=methodover.display(50, "Pradeep");
+		System.out.println(result);
+		result=methodover.display(20, "Ganesh");
+		System.out.println(result);
+	}
+
+}

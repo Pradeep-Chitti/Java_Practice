@@ -1,0 +1,12 @@
+package com.xworkz.costructor;
+
+public class Student {
+	 int age;
+	 Student(int a){
+		 age=a;
+	 }
+	 public static void main(String[] args) {
+		Student st=new Student(21);
+		System.out.println("age : "+st.age);
+	}
+}

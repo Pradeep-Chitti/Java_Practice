@@ -1,0 +1,34 @@
+class OnePlusNord{
+public String MOdel;
+public Float Price;
+
+public void Performence(){
+System.out.println(" ggg  ")
+}
+}
+
+class OnePlus9R extends OnePlusNord{
+public String color;
+public Float camera Mp;
+
+
+public void Os(){
+System.out.println("ppp ")
+}
+}
+
+class Tester {
+public static void main(String []args){
+ Oneplus9R phone=New Oneplus9R();
+ 
+ phone.Performence();
+ phone.Os();
+ 
+ phone.Model="Oneplus";
+
+ System.out.println(phone.Model);
+}
+
+}
+
+

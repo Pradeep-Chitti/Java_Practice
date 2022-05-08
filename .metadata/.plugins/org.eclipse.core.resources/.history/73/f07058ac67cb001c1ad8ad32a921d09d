@@ -1,0 +1,17 @@
+package com.xworkz.methods;
+
+public class Methods {
+			void display() {
+				System.out.println("Hello");
+			}
+			void mobile() {
+				System.out.println("OnePlus");
+			}
+			public static void main(String[] args) {
+				Methods M1=new Methods();
+				M1.display();
+				Methods M2=new Methods();
+				M2.mobile();
+			}
+
+}
